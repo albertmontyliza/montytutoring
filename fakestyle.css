@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 251, 223);
+}
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 900px;
+  justify-content: left;
+  align-content: left;
+  align-items: left;
+  align-self: left;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+}
+
+.nav {
+  grid-column: 1 / 13 ;
+  height: auto;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.nav header {
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.nav header a {
+  text-decoration: none;
+  color: black;
+}
+.nav ul li {
+  list-style-type: none;
+  position: relative;
+  float: right;
+  margin-top: 12px;
+  margin-right: 40px;
+
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  grid-column: 1 / 13 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  line-height: 50px;
+}
+.contact h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.contact p {
+  background-color: rgb(19, 28, 21);
+  color: white;
+  padding-bottom: 30px;
+}
+.contact b {
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+
+.mathpreview {
+  grid-column: 1 / 4 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  min-width: 250px;
+}
+.mathpreview img {
+  max-width: 60% ;
+  max-height: 60% ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.mathpreview h2 {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.mathpreview p {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 23px;
+}
+
+.chempreview {
+  grid-column: 4 / 7 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  min-width: 250px;
+}
+.chempreview img {
+  max-width: 60% ;
+  max-height: 60% ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.chempreview h2 {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.chempreview p {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 28px;
+}
+
+.physicspreview {
+  grid-column: 7 / 10 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  min-width: 250px;
+}
+.physicspreview img {
+  max-width: 60% ;
+  max-height: 60% ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.physicspreview h2 {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.physicspreview p {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 28px;
+}
+
+.fulltimepreview {
+  grid-column: 10 / 13 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  min-width: 250px;
+}
+.fulltimepreview img {
+  max-width: 60% ;
+  max-height: 60% ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+.fulltimepreview h2 {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.fulltimepreview p {
+  text-align: center;
+  background-color: rgb(19, 28, 21);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 25px;
+}
+
+/* .aboutmepic {
+  grid-column: 1 / 6 ;
+  margin-bottom: 75px;
+  background-color: rgb(246, 246, 246);
+  margin-left: 40%;
+  min-width: 385px;
+} */
+.aboutme {
+  grid-column: 1 / 13 ;
+  margin-bottom: 75px;
+  background-color: rgb(19, 28, 21);
+  min-width: 600px;
+  color: white;
+}
+.aboutme img {
+  max-width: 25%;
+  max-height: 25%;
+  min-width: 385px;
+  min-height: 385px;
+  background-color: rgb(19, 28, 21);
+  float: left;
+  margin-right: 30px;
+  color: white;
+}
+.aboutme h1 {
+  background-color: rgb(19, 28, 21);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: right;
+  margin-right: 30px;
+  color: white;
+}
+.aboutme p {
+  background-color: rgb(19, 28, 21);
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  color: white;
+}
+
+/* .myapproachpic {
+  grid-column: 8 / 13 ;
+  background-color: rgb(246, 246, 246);
+  margin-right: 40%;
+  justify-content: right;
+} */
+
+.footer {
+  xgrid-column: 1 / 13 ;
+  margin-top: 75px;
+  border-top: solid 1px rgb(50, 50, 50);
+  border-bottom: solid 1px rgb(50, 50, 50);
+}
+.footer h1 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.footer ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.footer ul li a {
+  text-decoration: none;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.footer2 {
+  xgrid-column: 1 / 13 ;
+  background-color: rgb(19, 28, 21);
+  color: white;
+}
+.footer2 p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: rgb(19, 28, 21);
+  xcolor: white;
+}
